@@ -1,0 +1,36 @@
+{
+  "name": "my-recipe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.10",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@tanstack/react-query": "^5.59.16",
+    "axios": "^1.7.7",
+    "next": "14.2.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.16",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "main": "index.js",
+  "author": "'khalek-repliq' <'abdul.khalek@repliq.dev'>",
+  "license": "MIT"
+}
